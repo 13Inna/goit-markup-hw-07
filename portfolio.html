@@ -16,30 +16,33 @@
     <body>
     
         <header class="header">
-            <div class="container">
-                <nav class="header-navigation">
-                    <a class="header-logo link" href="./index.html"> <span class="header-logo-w">Web</span>Studio</a>
+            <div class="container display">
+                <nav class="site-pages">
+                    <a class="site-pages__logo accent-color link" href="./index.html"> <span
+                            class="site-pages__logoweb">Web</span>Studio</a>
         
                     <!--Навигация на другие страницы-->
-                    <ul class="header-nav list">
-                        <li><a class="portfolio-header-nav-link pre-pre-nav link" href="index.html">Студия</a></li>
-                        <li><a class="portfolio-header-nav-link pre-pre-nav link current" href="./portfolio.html">Портфолио</a></li>
-                        <li><a class="portfolio-header-nav-link pre-pre-nav link" href="">Контакты</a></li>
+                    <ul class="site-nav list">
+                        <li><a class="site-nav__link accent-color" href="./index.html">Студия</a></li>
+                        <li><a class="site-nav__link accent-color current" href="portfolio.html">Портфолио</a></li>
+                        <li><a class="site-nav__link accent-color" href="">Контакты</a></li>
                     </ul>
                 </nav>
-                <ul class="header-contakt list">
-                    <li class="icon-contakt"> 
-                        <svg class="icon-contackt-icon" width="16" height="12">
+                <ul class="site-contakt list">
+                    <li class="site-contakt__nav">
+                        <svg class="site-contakt__icon" width="16" height="12">
                             <use href="./images/icons.svg#icon-1envelope-hover"></use>
                         </svg>
-                        <a class="header-contakt-mailto pre-nav link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        <a class="site-contakt__link site-contakt__right-indent accent-color link"
+                            href="mailto:info@devstudio.com">info@devstudio.com</a>
                     </li>
-                    <li class="icon-contakt">
-                        <svg class="icon-contackt-icon" width="10" height="16">
+                    <li class="site-contakt__nav">
+                        <svg class="site-contakt__icon" width="10" height="16">
                             <use href="./images/icons.svg#icon-2smartphone"></use>
                         </svg>
-                        <a class="header-contakt-tel pre-nav link" href="tel:+380961111111">+38 096 111 11 11</a>
-                    </li> 
+                        <a class="site-contakt__link accent-color link" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
+                </ul>
             </div>
         </header>
      
@@ -49,11 +52,11 @@
                 <div class="container">
                     <h1 class="visually-hidden">Мои фильтры</h1>
                     <ul class="filters-ul list">
-                        <li><button class="portfolio-button-b pre-button" type="button">Все</button></li>
-                        <li><button class="portfolio-button pre-button" type="button">Веб-сайты</button></li>
-                        <li><button class="portfolio-button pre-button" type="button">Приложения</button></li>
-                        <li><button class="portfolio-button pre-button" type="button">Дизайн</button></li>
-                        <li><button class="portfolio-button pre-button" type="button">Маркетинг</button></li>
+                        <li><button class="portfolio-button btn-first accent-button" type="button">Все</button></li>
+                        <li><button class="portfolio-button accent-button" type="button">Веб-сайты</button></li>
+                        <li><button class="portfolio-button accent-button" type="button">Приложения</button></li>
+                        <li><button class="portfolio-button accent-button" type="button">Дизайн</button></li>
+                        <li><button class="portfolio-button accent-button" type="button">Маркетинг</button></li>
                     </ul>
                 </div>
             </section>
@@ -196,13 +199,17 @@
         <footer class="footer">
             <div class="container footer-conteiner">
                 <div class="footer-conteiner-box">
-                    <a class="footer-logo link" href="./index.html"> <span class="footer-logo-w">Web</span>Studio</a>
+                    <a class="footer-logo accent-color link" href="./index.html"> <span class="footer-logo-w">Web</span>Studio</a>
                     <address class="footer-contakt">
                         <ul class="footer-contakt-ul list">
-                            <li> <a class="footer-contakt-address pre-nav pre-text link" href="https://goo.gl/maps/k5yf5XhUNcUCfMpx5" target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
-                            <li> <a class="footer-contakt-mailto pre-nav pre-text link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                            <li> <a class="footer-contakt-tel pre-nav pre-text link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-                        </ul> 
+                            <li> <a class="footer-contakt-address accent-color pre-text link"
+                                    href="https://goo.gl/maps/k5yf5XhUNcUCfMpx5" target="_blank" rel="noopener noreferrer">г. Киев, пр-т
+                                    Леси Украинки, 26</a></li>
+                            <li> <a class="footer-contakt-mailto accent-color pre-text link"
+                                    href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                            <li> <a class="footer-contakt-tel accent-color pre-text link" href="tel:+380961111111">+38 096 111 11 11</a>
+                            </li>
+                        </ul>
                     </address>
                 </div>
                 <div class="footer-social-box">
