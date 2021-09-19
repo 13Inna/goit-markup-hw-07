@@ -441,12 +441,13 @@ img {
 .footer-social {
   display: flex;
   flex-direction: column;
-  max-height: 251px;
   margin-left: 70px;
   padding-top: 72px;
   padding-bottom: 100px;
 }
-
+.social-set--bottom-ident {
+  margin-bottom: 0;
+}
 .footer-social__title {
   color: var(--text-color-white);
   margin-bottom: 20px;
