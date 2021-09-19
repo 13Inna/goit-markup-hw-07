@@ -407,8 +407,7 @@ img {
 .site-footer {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  height: 100%;
+
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -442,7 +441,7 @@ img {
 .footer-social {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  max-height: 251px;
   margin-left: 70px;
   padding-top: 72px;
   padding-bottom: 100px;
@@ -452,14 +451,12 @@ img {
   color: var(--text-color-white);
   margin-bottom: 20px;
   text-align: left;
-  width: 100%;
 }
 /*------------footer-form------------*/
 .footer-form {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  height: 100%;
+
   margin-left: 93px;
   padding-top: 72px;
   padding-bottom: 94px;
